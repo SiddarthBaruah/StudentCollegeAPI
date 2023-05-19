@@ -10,7 +10,7 @@ These sceens are connected to loading.dart, Home.dart and Sort.dart respectively
 And by default firstle the loading screen will be shown. Lets see how it looks.
 
 # Loading Screen 
-Firstly, a loading screen will appear where it will first collect all the required data from the API. The loading screen should look like this:
+Firstly, a loading screen will appear where it will first collect all the required data from the API. The loading screen should look like this:\
 <img width="198" alt="image" src="https://github.com/SiddarthBaruah/StudentCollegeAPI/assets/95840068/ae4437f1-ea55-4f6a-bb8e-4538bc9ccd27">
 
 After collecting all the date, it will send the data to the route '/Home'
