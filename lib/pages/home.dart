@@ -21,7 +21,8 @@ class _HomeState extends State<Home> {
 
   void sortAlphabetically() {
     setState(() {
-      data.sort((a, b) => a['roll no.'].compareTo(b['roll no.']));
+      data.sort((a, b) =>
+          int.parse(a['roll no.']).compareTo(int.parse(b['roll no.'])));
     });
   }
 

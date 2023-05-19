@@ -30,7 +30,9 @@ class StudentCard extends StatelessWidget {
           ),
           Row(
             children: [
-              Text("${studentData['college']}  "),
+              Text(
+                "${studentData['college']}  ",
+              ),
             ],
           ),
         ]),
